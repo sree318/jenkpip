@@ -9,6 +9,7 @@ pipeline {
         stage('Run Step') {
             steps { 
                 echo 'java pip'
-            }            
+            }   
+        }
     }
 }
