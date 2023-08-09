@@ -3,8 +3,17 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-                echo 'hello'
+                echo 'cd C:\Users\WEB1COB\Desktop\example_pip'
+                
             }
-        }
+        stage('Build Step') {
+            steps { 
+                echo 'javac pip.java'
+                
+            }
+        stage('Run Step') {
+            steps { 
+                echo 'java pip'
+            }            
     }
 }
