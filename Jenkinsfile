@@ -47,9 +47,6 @@ pipeline {
         aborted {
             echo "This block runs when the build process is aborted."
         }
-        hello{
-            echo "hello "
-        }
         failure {
             echo "This block runs when the build is failed."
         }
