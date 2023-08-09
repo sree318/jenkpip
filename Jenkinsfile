@@ -4,7 +4,7 @@ pipeline {
         stage('Build Step') {
             steps { 
                 echo 'javac pip.java'
-                
+            }   
             }
         stage('Run Step') {
             steps { 
