@@ -10,7 +10,7 @@ pipeline {
                     echo "configuring build step"
                 }
                  success {
-                    echo "Build step ran successfully"
+                    echo "Build step ran successfuly"
                 }
             }
         }
