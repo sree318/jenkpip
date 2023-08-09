@@ -7,7 +7,7 @@ pipeline {
             }
              post {
                 always {
-                    echo "configuring build step"
+                    echo "configuring build step."
                 }
                  success {
                     echo "Build step ran successfulLy"
